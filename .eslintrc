@@ -21,7 +21,9 @@
     "max-len": ["error", { "code": 100 }],
     "prefer-promise-reject-errors": ["off"],
     "react/jsx-filename-extension": ["off"],
+    "react/jsx-props-no-spreading": ["warn"],
     "react/prop-types": ["warn"],
+    "import/no-unresolved": ["off"],
     "no-return-assign": ["off"]
   }
 }
