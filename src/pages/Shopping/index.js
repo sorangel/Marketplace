@@ -1,7 +1,15 @@
 import React from 'react';
+import { Grid, Typography } from '@material-ui/core';
+// import propTypes from 'prop-types';
 
-export default () => (
-  <div>
-    <h1>Shopping Page</h1>
-  </div>
+const Page = () => (
+  <Grid container justify="center" alignItems="center">
+    <Grid item>
+      <Typography variant="h1">Shopping Page</Typography>
+    </Grid>
+  </Grid>
 );
+
+Page.propTypes = {};
+
+export default Page;
