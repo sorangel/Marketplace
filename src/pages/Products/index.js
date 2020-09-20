@@ -5,7 +5,7 @@ import { Grid, Typography } from '@material-ui/core';
 const Page = () => (
   <Grid container justify="center" alignItems="center">
     <Grid item>
-      <Typography variant="h1">Home Page</Typography>
+      <Typography variant="h1">Products Page</Typography>
     </Grid>
   </Grid>
 );
