@@ -1,4 +1,4 @@
-import { Home, Contact, Shopping, Product, Page404 } from 'pages';
+import { Home, Contact, Shopping, Product, Products, Page404 } from 'pages';
 
 export default [
   {
@@ -8,6 +8,7 @@ export default [
     exact: true,
     strict: true,
     sensitive: false,
+    showOnAppBar: true,
   },
   {
     path: '/contact',
@@ -16,6 +17,7 @@ export default [
     exact: true,
     strict: true,
     sensitive: false,
+    showOnAppBar: true,
   },
   {
     path: '/shopping',
@@ -24,6 +26,16 @@ export default [
     exact: true,
     strict: true,
     sensitive: false,
+    showOnAppBar: true,
+  },
+  {
+    path: '/products',
+    name: 'Products',
+    component: Products,
+    exact: true,
+    strict: true,
+    sensitive: false,
+    showOnAppBar: true,
   },
   {
     path: '/product/:id',
@@ -32,6 +44,7 @@ export default [
     exact: true,
     strict: true,
     sensitive: false,
+    showOnAppBar: false,
   },
   {
     // path: '',
@@ -40,5 +53,6 @@ export default [
     // exact: true,
     // strict: true,
     // sensitive: false,
+    showOnAppBar: false,
   },
 ];
